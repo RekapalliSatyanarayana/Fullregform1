@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Form</title>
+    <style>
+        body
+        {
+            background-color: darkgoldenrod;
+        }
+label
+{
+display: block;
+padding: 10px;
+}
+form
+{
+text-align: center;
+background-color:skyblue;
+margin: 0px 500px 0px 500px;
+}
+h1
+{
+    text-align: center;
+}
+#submit
+{
+    padding: 10px;
+}
+input[type=submit]
+{
+    background-color: beige;
+}
+input[type=submit]:hover
+{
+    background-color:pink;
+}
+    </style>
+</head>
+<body>
+    <h1>Create an account for Registration</h1>
+    <form action="http://127.0.0.1:5500/satish/index.html" method="get">
+        <label for="name">Firstname</label>
+        <input type="text" name="name" required><br>
+        <label for="name">Lastname</label>
+        <input type="text" name="name" required><br>
+        <label for="email">Enter your email</label>
+        <input type="email" name="email" required><br>
+        <label for="pass">Create a password</label>
+        <input type="password" name="pass" required><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

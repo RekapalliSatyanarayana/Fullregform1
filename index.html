@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            background-color: greenyellow;
+        }
+    label
+{
+display: block;
+padding: 10px;
+}
+h1
+{
+    text-align: center;
+}
+form
+{
+text-align: center;
+background-color: aquamarine;
+margin: 0px 500px 0px 500px;
+}
+#submit
+{
+    padding: 10px;
+}
+input[type=submit]
+{
+    background-color: beige;
+}
+input[type=submit]:hover
+{
+    background-color:pink;
+}
+    </style>
+</head>
+<body>
+    <h1>Login Account</h1>
+    <form action="http://127.0.0.1:5500/satish/form.html" method="get">
+        <label for="mail">Enter your email</label>
+        <input type="email" name="mail" required>
+        <label for="password">Enter your password</label>
+        <input type="password">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
